@@ -3,5 +3,5 @@
 ## E-Commerce Web Application
 
 
-### `npm install` then ### `npm start`
+### `npm install` then `npm start`
 
