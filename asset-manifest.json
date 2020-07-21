@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/kanadets.github.io/ecommerce-app/static/css/main.ee48b324.chunk.css",
-    "main.js": "/kanadets.github.io/ecommerce-app/static/js/main.bab41e90.chunk.js",
-    "main.js.map": "/kanadets.github.io/ecommerce-app/static/js/main.bab41e90.chunk.js.map",
-    "runtime-main.js": "/kanadets.github.io/ecommerce-app/static/js/runtime-main.9e5e6d91.js",
-    "runtime-main.js.map": "/kanadets.github.io/ecommerce-app/static/js/runtime-main.9e5e6d91.js.map",
-    "static/js/2.fa62895f.chunk.js": "/kanadets.github.io/ecommerce-app/static/js/2.fa62895f.chunk.js",
-    "static/js/2.fa62895f.chunk.js.map": "/kanadets.github.io/ecommerce-app/static/js/2.fa62895f.chunk.js.map",
-    "index.html": "/kanadets.github.io/ecommerce-app/index.html",
-    "precache-manifest.066932318fa0b3c2368a7f11648e4e90.js": "/kanadets.github.io/ecommerce-app/precache-manifest.066932318fa0b3c2368a7f11648e4e90.js",
-    "service-worker.js": "/kanadets.github.io/ecommerce-app/service-worker.js",
-    "static/css/main.ee48b324.chunk.css.map": "/kanadets.github.io/ecommerce-app/static/css/main.ee48b324.chunk.css.map",
-    "static/js/2.fa62895f.chunk.js.LICENSE.txt": "/kanadets.github.io/ecommerce-app/static/js/2.fa62895f.chunk.js.LICENSE.txt",
-    "static/media/crown.ed28accb.svg": "/kanadets.github.io/ecommerce-app/static/media/crown.ed28accb.svg"
+    "main.css": "/eCommerce-app/static/css/main.ee48b324.chunk.css",
+    "main.js": "/eCommerce-app/static/js/main.bab41e90.chunk.js",
+    "main.js.map": "/eCommerce-app/static/js/main.bab41e90.chunk.js.map",
+    "runtime-main.js": "/eCommerce-app/static/js/runtime-main.d48347ed.js",
+    "runtime-main.js.map": "/eCommerce-app/static/js/runtime-main.d48347ed.js.map",
+    "static/js/2.b05369d5.chunk.js": "/eCommerce-app/static/js/2.b05369d5.chunk.js",
+    "static/js/2.b05369d5.chunk.js.map": "/eCommerce-app/static/js/2.b05369d5.chunk.js.map",
+    "index.html": "/eCommerce-app/index.html",
+    "precache-manifest.b2fd471c0539e59bb678821566568aed.js": "/eCommerce-app/precache-manifest.b2fd471c0539e59bb678821566568aed.js",
+    "service-worker.js": "/eCommerce-app/service-worker.js",
+    "static/css/main.ee48b324.chunk.css.map": "/eCommerce-app/static/css/main.ee48b324.chunk.css.map",
+    "static/js/2.b05369d5.chunk.js.LICENSE.txt": "/eCommerce-app/static/js/2.b05369d5.chunk.js.LICENSE.txt",
+    "static/media/crown.ed28accb.svg": "/eCommerce-app/static/media/crown.ed28accb.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9e5e6d91.js",
-    "static/js/2.fa62895f.chunk.js",
+    "static/js/runtime-main.d48347ed.js",
+    "static/js/2.b05369d5.chunk.js",
     "static/css/main.ee48b324.chunk.css",
     "static/js/main.bab41e90.chunk.js"
   ]
