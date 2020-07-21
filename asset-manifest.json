@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.ee48b324.chunk.css",
-    "main.js": "/static/js/main.214822b2.chunk.js",
-    "main.js.map": "/static/js/main.214822b2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8ea30539.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8ea30539.js.map",
-    "static/js/2.a071c163.chunk.js": "/static/js/2.a071c163.chunk.js",
-    "static/js/2.a071c163.chunk.js.map": "/static/js/2.a071c163.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.ad2fda0dd28199dcb7586e2ae3f25256.js": "/precache-manifest.ad2fda0dd28199dcb7586e2ae3f25256.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.ee48b324.chunk.css.map": "/static/css/main.ee48b324.chunk.css.map",
-    "static/js/2.a071c163.chunk.js.LICENSE.txt": "/static/js/2.a071c163.chunk.js.LICENSE.txt",
-    "static/media/crown.ed28accb.svg": "/static/media/crown.ed28accb.svg"
+    "main.css": "/kanadets.github.io/ecommerce-app/static/css/main.ee48b324.chunk.css",
+    "main.js": "/kanadets.github.io/ecommerce-app/static/js/main.bab41e90.chunk.js",
+    "main.js.map": "/kanadets.github.io/ecommerce-app/static/js/main.bab41e90.chunk.js.map",
+    "runtime-main.js": "/kanadets.github.io/ecommerce-app/static/js/runtime-main.9e5e6d91.js",
+    "runtime-main.js.map": "/kanadets.github.io/ecommerce-app/static/js/runtime-main.9e5e6d91.js.map",
+    "static/js/2.fa62895f.chunk.js": "/kanadets.github.io/ecommerce-app/static/js/2.fa62895f.chunk.js",
+    "static/js/2.fa62895f.chunk.js.map": "/kanadets.github.io/ecommerce-app/static/js/2.fa62895f.chunk.js.map",
+    "index.html": "/kanadets.github.io/ecommerce-app/index.html",
+    "precache-manifest.066932318fa0b3c2368a7f11648e4e90.js": "/kanadets.github.io/ecommerce-app/precache-manifest.066932318fa0b3c2368a7f11648e4e90.js",
+    "service-worker.js": "/kanadets.github.io/ecommerce-app/service-worker.js",
+    "static/css/main.ee48b324.chunk.css.map": "/kanadets.github.io/ecommerce-app/static/css/main.ee48b324.chunk.css.map",
+    "static/js/2.fa62895f.chunk.js.LICENSE.txt": "/kanadets.github.io/ecommerce-app/static/js/2.fa62895f.chunk.js.LICENSE.txt",
+    "static/media/crown.ed28accb.svg": "/kanadets.github.io/ecommerce-app/static/media/crown.ed28accb.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8ea30539.js",
-    "static/js/2.a071c163.chunk.js",
+    "static/js/runtime-main.9e5e6d91.js",
+    "static/js/2.fa62895f.chunk.js",
     "static/css/main.ee48b324.chunk.css",
-    "static/js/main.214822b2.chunk.js"
+    "static/js/main.bab41e90.chunk.js"
   ]
 }
