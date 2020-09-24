@@ -19,8 +19,6 @@ import {
   OptionLink,
 } from "./header.styles";
 
-import "./header.styles.scss";
-
 const Header = ({ currentUser, hidden }) => {
   return (
     <HeaderContainer>
