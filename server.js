@@ -3,7 +3,6 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const path = require("path");
-const { func } = require("prop-types");
 
 //check if we're in development or testing
 if (process.env.NODE_ENV !== "production") require("dotenv").config();
