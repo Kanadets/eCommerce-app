@@ -45,8 +45,8 @@ const StripeCheckoutButton = ({ price, clearCart }) => {
   );
 };
 
-const mapDispatchToProps = (dispatch) => {
-  clearCart: () => dispatch(clearCart());
-};
+const mapDispatchToProps = (dispatch) => ({
+  clearCart: () => dispatch(clearCart()),
+});
 
 export default connect(null, mapDispatchToProps)(StripeCheckoutButton);
