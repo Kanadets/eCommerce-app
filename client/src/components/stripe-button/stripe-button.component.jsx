@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 
 import { clearCart } from "../../redux/cart/cart.actions";
 
-const StripeCheckoutButton = ({ price }) => {
+const StripeCheckoutButton = ({ price, clearCart }) => {
   const priceForStripe = price * 100;
   const publishableKey =
     "pk_test_51HSAloJnSXPhdFE4SdjzUgU1T3QT9s59TvCifKzyLiZHGwgYPSlAHa3sECnhNJeEGDAsm44g27Q5W4obXfsBfFgB005EkP5AyK";
@@ -21,6 +21,7 @@ const StripeCheckoutButton = ({ price }) => {
     })
       .then((response) => {
         alert("Payment Successful");
+        clearCart();
       })
       .catch((error) => {
         console.log("payment error: ", JSON.parse(error));
