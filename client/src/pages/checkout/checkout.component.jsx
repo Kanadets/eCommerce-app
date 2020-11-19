@@ -16,22 +16,23 @@ import {
   HeaderBlockContainer,
   TotalContainer,
   WarningContainer,
+  SpanText,
 } from "./checkout.styles";
 
 const CheckoutPage = ({ cartItems, total }) => (
   <CheckoutPageContainer>
     <CheckoutHeaderContainer>
       <HeaderBlockContainer>
-        <span>Product</span>
+        <SpanText>Product</SpanText>
       </HeaderBlockContainer>
       <HeaderBlockContainer>
-        <span>Description</span>
+        <SpanText>Description</SpanText>
       </HeaderBlockContainer>
       <HeaderBlockContainer>
-        <span>Quantity</span>
+        <SpanText>Quantity</SpanText>
       </HeaderBlockContainer>
       <HeaderBlockContainer>
-        <span>Price</span>
+        <SpanText>Price</SpanText>
       </HeaderBlockContainer>
       <HeaderBlockContainer>
         <span>Remove</span>
@@ -44,7 +45,7 @@ const CheckoutPage = ({ cartItems, total }) => (
     <WarningContainer>
       *Please use the following test credit card for payments*
       <br />
-      4242 4242 4242 4242 - Exp: 01/20 - CVV: 123
+      4242 4242 4242 4242 - Exp: 01/21 - CVV: 123
     </WarningContainer>
     <StripeCheckoutButton price={total} />
   </CheckoutPageContainer>
