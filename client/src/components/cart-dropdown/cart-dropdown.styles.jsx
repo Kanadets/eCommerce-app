@@ -16,9 +16,6 @@ export const CartDropdownContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     right: 10px;
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-    overflow-y: scroll;
   }
 `;
 
@@ -30,8 +27,8 @@ export const CartItemsContainer = styled.div`
   overflow: auto;
 
   @media screen and (max-width: 800px) {
+    overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    overflow-y: scroll;
   }
 `;
 
