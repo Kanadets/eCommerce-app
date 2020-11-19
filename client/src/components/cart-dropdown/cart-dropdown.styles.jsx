@@ -16,6 +16,7 @@ export const CartDropdownContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     right: 10px;
+    overflow: auto;
   }
 `;
 
@@ -24,7 +25,7 @@ export const CartItemsContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  overflow: scroll;
+  overflow: auto;
 `;
 
 export const EmptyMessageContainer = styled.span`
