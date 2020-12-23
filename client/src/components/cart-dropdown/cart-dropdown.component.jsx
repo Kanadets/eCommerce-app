@@ -17,7 +17,7 @@ import CartItem from "../cart-item/cart-item.component";
 const CartDropdown = ({ cartItems, history, dispatch }) => {
   return (
     <CartDropdownContainer>
-      <CartItemsContainer>
+      <CartItemsContainer style={{ overflow: "auto" }}>
         {cartItems.length ? (
           cartItems.map((cartItem) => (
             <CartItem key={cartItem.id} item={cartItem} />

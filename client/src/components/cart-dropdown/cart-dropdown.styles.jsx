@@ -24,12 +24,6 @@ export const CartItemsContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  overflow: auto;
-
-  @media screen and (max-width: 800px) {
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-  }
 `;
 
 export const EmptyMessageContainer = styled.span`
