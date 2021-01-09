@@ -1,7 +1,7 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import { connect } from "react-redux";
 
-import CollectionItem from "../../components/collection-item/collection-item.component";
+import Spinner from "../../components/spinner/spinner.component";
 
 import { selectCollection } from "../../redux/shop/shop.selectors";
 
@@ -11,16 +11,22 @@ import {
   CollectionItemsContainer,
 } from "./collection.styles";
 
+const CollectionItem = lazy(() =>
+  import("../../components/collection-item/collection-item.component")
+);
+
 const CollectionPage = ({ collection }) => {
   const { title, items } = collection;
   return (
     <CollectionPageContainer>
       <CollectionTitle>{title}</CollectionTitle>
-      <CollectionItemsContainer>
-        {items.map((item) => (
-          <CollectionItem key={item.id} item={item} />
-        ))}
-      </CollectionItemsContainer>
+      <Suspense fallback={<Spinner />}>
+        <CollectionItemsContainer>
+          {items.map((item) => (
+            <CollectionItem key={item.id} item={item} />
+          ))}
+        </CollectionItemsContainer>
+      </Suspense>
     </CollectionPageContainer>
   );
 };
