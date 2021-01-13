@@ -10,4 +10,5 @@
 - [x] Add Redux
 - [x] Styled Components
 - [x] Set Up Stripe Payment
-- [ ] Mobile optimization
+- [x] Mobile optimization
+- [x] Perfomance optimization
