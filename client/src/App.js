@@ -29,9 +29,9 @@ const App = ({ checkUserSession, currentUser }) => {
     <div>
       <GlobalStyle />
       <Header />
-      <Switch>
-        <ErrorBoundary>
-          <Suspense fallback={<Spinner />}>
+      <ErrorBoundary>
+        <Suspense fallback={<Spinner />}>
+          <Switch>
             <Route exact path="/" component={HomePage} />
             <Route path="/shop" component={ShopPage} />
             <Route exact path="/checkout" component={CheckoutPage} />
@@ -42,9 +42,10 @@ const App = ({ checkUserSession, currentUser }) => {
                 currentUser ? <Redirect to="/" /> : <SignInAndSignUpPage />
               }
             />
-          </Suspense>
-        </ErrorBoundary>
-      </Switch>
+            <Route render={() => <h1>404 NOT FOUND</h1>} />
+          </Switch>
+        </Suspense>
+      </ErrorBoundary>
     </div>
   );
 };
